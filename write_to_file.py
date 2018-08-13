@@ -20,12 +20,7 @@ line2 = input('Line2: ')
 line3 = input('Line3: ')
 
 print('Writing the lines to the file')
-target.write(line1)
-target.write('\n')
-target.write(line2)
-target.write('\n')
-target.write(line3)
-target.write('\n')
+target.write(f"{line1}\n{line2}\n{line3}")
 
 print('Finally we close it')
 target.close()
