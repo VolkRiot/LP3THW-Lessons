@@ -15,9 +15,13 @@ for i in change:
 
 elements = []
 
-for i in range(0, 6):
-    print(f'Adding element {i} to list')
-    elements.append(i)
+# for i in range(0, 6):
+#     print(f'Adding element {i} to list')
+#     elements.append(i)
+
+# Alternative is to use range function directly
+
+elements = range(0, 6)
 
 for i in elements:
     print(f'Element in list is {i}')
