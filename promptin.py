@@ -4,8 +4,10 @@ script, user_name = sys.argv
 
 prompt = '> '
 
-print(f'Hi {user_name}, I am the {script} script')
-print(f'Dow you like me {user_name}?')
+hello_string = f'Hi {user_name}, I am the {script} script'
+
+print(hello_string)
+print(f'Do you like me {user_name}?')
 
 likes = input(prompt)
 
